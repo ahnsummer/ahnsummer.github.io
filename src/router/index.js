@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import About from "../views/About.vue";
+import PlayGround from "../views/PlayGround.vue";
 
 const routes = [
   {
@@ -12,7 +13,12 @@ const routes = [
     path: "/about",
     name: "About",
     component: About
-  }
+  },
+  {
+    path: "/playGround",
+    name: "PlayGround",
+    component: PlayGround
+  },
 ];
 
 const router = createRouter({
