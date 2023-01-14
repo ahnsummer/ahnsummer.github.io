@@ -1,0 +1,198 @@
+@font-face {
+  font-family: "soeun";
+  font-weight: 900;
+  font-style: normal;
+  src: url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Black-Hestia.eot),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Black-Hestia.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/woff/NotoSansKR-Black-Hestia.woff)
+      format("woff"),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/otf/NotoSansKR-Black-Hestia.otf)
+      format("opentype");
+  unicode-range: U+AC00- U+D7A3, U+0030-0039, U+0020-002F, U+003A-0040,
+    U+005B-0060, U+007B-007E;
+}
+
+@font-face {
+  font-family: "soeun";
+  font-weight: 700;
+  font-style: normal;
+  src: url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Bold-Hestia.eot),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Bold-Hestia.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/woff/NotoSansKR-Bold-Hestia.woff)
+      format("woff"),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/otf/NotoSansKR-Bold-Hestia.otf)
+      format("opentype");
+  unicode-range: U+AC00- U+D7A3, U+0030-0039, U+0020-002F, U+003A-0040,
+    U+005B-0060, U+007B-007E;
+}
+
+@font-face {
+  font-family: "soeun";
+  font-weight: 500;
+  font-style: normal;
+  src: url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Medium-Hestia.eot),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Medium-Hestia.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/woff/NotoSansKR-Medium-Hestia.woff)
+      format("woff"),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/otf/NotoSansKR-Medium-Hestia.otf)
+      format("opentype");
+  unicode-range: U+AC00- U+D7A3, U+0030-0039, U+0020-002F, U+003A-0040,
+    U+005B-0060, U+007B-007E;
+}
+
+@font-face {
+  font-family: "soeun";
+  font-weight: 400;
+  font-style: normal;
+  src: url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Regular-Hestia.eot),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Regular-Hestia.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/woff/NotoSansKR-Regular-Hestia.woff)
+      format("woff"),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/otf/NotoSansKR-Regular-Hestia.otf)
+      format("opentype");
+  unicode-range: U+AC00- U+D7A3, U+0030-0039, U+0020-002F, U+003A-0040,
+    U+005B-0060, U+007B-007E;
+}
+
+@font-face {
+  font-family: "soeun";
+  font-weight: 300;
+  font-style: normal;
+  src: url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Light-Hestia.eot),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Light-Hestia.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/woff/NotoSansKR-Light-Hestia.woff)
+      format("woff"),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/otf/NotoSansKR-Light-Hestia.otf)
+      format("opentype");
+  unicode-range: U+AC00- U+D7A3, U+0030-0039, U+0020-002F, U+003A-0040,
+    U+005B-0060, U+007B-007E;
+}
+
+@font-face {
+  font-family: "soeun";
+  font-weight: 100;
+  font-style: normal;
+  src: url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Thin-Hestia.eot),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/eot/NotoSansKR-Thin-Hestia.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/woff/NotoSansKR-Thin-Hestia.woff)
+      format("woff"),
+    url(https://cdn.jsdelivr.net/gh/theeluwin/NotoSansKR-Hestia@master/fonts/otf/NotoSansKR-Thin-Hestia.otf)
+      format("opentype");
+  unicode-range: U+AC00- U+D7A3, U+0030-0039, U+0020-002F, U+003A-0040,
+    U+005B-0060, U+007B-007E;
+}
+
+@font-face {
+  font-family: "soeun";
+  font-weight: 900;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-black-webfont.woff")
+    format("woff");
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+
+@font-face {
+  font-family: "soeun";
+  font-weight: 900;
+  font-style: italic;
+  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-blackitalic-webfont.woff")
+    format("woff");
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+
+@font-face {
+  font-family: "soeun";
+  font-weight: 700;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-bold-webfont.woff")
+    format("woff");
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+
+@font-face {
+  font-family: "soeun";
+  font-weight: 700;
+  font-style: italic;
+  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-bolditalic-webfont.woff")
+    format("woff");
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+
+@font-face {
+  font-family: "soeun";
+  font-weight: 500;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-medium-webfont.woff")
+    format("woff");
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+
+@font-face {
+  font-family: "soeun";
+  font-weight: 500;
+  font-style: italic;
+  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-mediumitalic-webfont.woff")
+    format("woff");
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+
+@font-face {
+  font-family: "soeun";
+  font-weight: 400;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-regular-webfont.woff")
+    format("woff");
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+
+@font-face {
+  font-family: "soeun";
+  font-weight: 400;
+  font-style: italic;
+  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-light-webfont.woff")
+    format("woff");
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+
+@font-face {
+  font-family: "soeun";
+  font-weight: 300;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-light-webfont.woff")
+    format("woff");
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+
+@font-face {
+  font-family: "soeun";
+  font-weight: 300;
+  font-style: italic;
+  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-lightitalic-webfont.woff")
+    format("woff");
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+
+@font-face {
+  font-family: "soeun";
+  font-weight: 100;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-thin-webfont.woff")
+    format("woff");
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+
+@font-face {
+  font-family: "soeun";
+  font-weight: 100;
+  font-style: italic;
+  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-thinitalic-webfont.woff")
+    format("woff");
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+
