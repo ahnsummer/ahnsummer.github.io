@@ -88,74 +88,21 @@
     U+005B-0060, U+007B-007E;
 }
 
+/* GT-America */
 @font-face {
   font-family: "soeun";
-  font-weight: 900;
-  font-style: normal;
-  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-black-webfont.woff")
+  font-weight: 100;
+  font-style: standard;
+  src: url("../styles/fonts/GT-America-Standard-Thin-Trial.woff")
     format("woff");
   unicode-range: U+0041-005A, U+0061-007A;
 }
 
 @font-face {
   font-family: "soeun";
-  font-weight: 900;
-  font-style: italic;
-  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-blackitalic-webfont.woff")
-    format("woff");
-  unicode-range: U+0041-005A, U+0061-007A;
-}
-
-@font-face {
-  font-family: "soeun";
-  font-weight: 700;
-  font-style: normal;
-  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-bold-webfont.woff")
-    format("woff");
-  unicode-range: U+0041-005A, U+0061-007A;
-}
-
-@font-face {
-  font-family: "soeun";
-  font-weight: 700;
-  font-style: italic;
-  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-bolditalic-webfont.woff")
-    format("woff");
-  unicode-range: U+0041-005A, U+0061-007A;
-}
-
-@font-face {
-  font-family: "soeun";
-  font-weight: 500;
-  font-style: normal;
-  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-medium-webfont.woff")
-    format("woff");
-  unicode-range: U+0041-005A, U+0061-007A;
-}
-
-@font-face {
-  font-family: "soeun";
-  font-weight: 500;
-  font-style: italic;
-  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-mediumitalic-webfont.woff")
-    format("woff");
-  unicode-range: U+0041-005A, U+0061-007A;
-}
-
-@font-face {
-  font-family: "soeun";
-  font-weight: 400;
-  font-style: normal;
-  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-regular-webfont.woff")
-    format("woff");
-  unicode-range: U+0041-005A, U+0061-007A;
-}
-
-@font-face {
-  font-family: "soeun";
-  font-weight: 400;
-  font-style: italic;
-  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-light-webfont.woff")
+  font-weight: 200;
+  font-style: standard;
+  src: url("../styles/fonts/GT-America-Standard-Ultra-Light-Trial.woff")
     format("woff");
   unicode-range: U+0041-005A, U+0061-007A;
 }
@@ -163,36 +110,47 @@
 @font-face {
   font-family: "soeun";
   font-weight: 300;
-  font-style: normal;
-  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-light-webfont.woff")
+  font-style: standard;
+  src: url("../styles/fonts/GT-America-Standard-Light-Trial.woff")
     format("woff");
   unicode-range: U+0041-005A, U+0061-007A;
 }
 
 @font-face {
   font-family: "soeun";
-  font-weight: 300;
-  font-style: italic;
-  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-lightitalic-webfont.woff")
+  font-weight: 400;
+  font-style: standard;
+  src: url("../styles/fonts/GT-America-Standard-Regular-Trial.woff")
     format("woff");
   unicode-range: U+0041-005A, U+0061-007A;
 }
 
 @font-face {
   font-family: "soeun";
-  font-weight: 100;
-  font-style: normal;
-  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-thin-webfont.woff")
+  font-weight: 500;
+  font-style: standard;
+  src: url("../styles/fonts/GT-America-Standard-Medium-Trial.woff")
     format("woff");
   unicode-range: U+0041-005A, U+0061-007A;
 }
 
 @font-face {
   font-family: "soeun";
-  font-weight: 100;
-  font-style: italic;
-  src: url("https://cdn.jsdelivr.net/npm/roboto-font@0.1.0/fonts/Roboto/roboto-thinitalic-webfont.woff")
+  font-weight: 700;
+  font-style: standard;
+  src: url("../styles/fonts/GT-America-Standard-Bold-Trial.woff")
     format("woff");
   unicode-range: U+0041-005A, U+0061-007A;
 }
+
+@font-face {
+  font-family: "soeun";
+  font-weight: 900;
+  font-style: standard;
+  src: url("../styles/fonts/GT-America-Standard-Black-Trial.woff")
+    format("woff");
+  unicode-range: U+0041-005A, U+0061-007A;
+}
+
+
 

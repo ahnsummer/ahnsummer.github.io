@@ -22,37 +22,47 @@ export const Header = () => {
   };
 
   return (
-    <div className="w-full flex-center bg-primary bebas">
+    <div className="w-full fixed flex-center bg-primary">
       <div className="w-full m-4 flex-center bg-white rounded-[4px] text-2xl">
         <div className="w-full flex-center p-4 md:px-8">
           <Link
             to="/"
             onClick={closeHamburger}
-            className="text-[2rem] md:text-4xl"
+            className="text-3xl md:text-3xl font-semibold md:font-bold tracking-tighter"
           >
             AHNSUMMER
           </Link>
           <ul className="hidden md:flex justify-end items-center grow">
             {categories.map((category, idx) => (
-              <li className="px-8" key={idx}>
+              <li className="px-8 font-medium" key={idx}>
                 <Link to={`/${category}`}>{category}</Link>
               </li>
             ))}
           </ul>
           <div>
-            <p className="hidden md:flex py-2 px-8 ml-4 bg-black rounded-3xl text-white">
+            <p className="hidden md:flex py-2 px-8 ml-4 bg-black rounded-3xl text-white font-medium text-lg">
               CONTACT
             </p>
           </div>
           {/* mobile */}
           <div className="flex justify-end grow md:hidden">
             <div
-              className={classNames("hamburger", toggle ? "active-1" : "")}
-              onClick={onClickHamburger}
+              className={classNames(
+                "w-10 h-10 flex-center rounded-md",
+                toggle ? "bg-gray-300" : " bg-primary"
+              )}
             >
-              <span></span>
-              <span></span>
-              <span></span>
+              <div
+                className={classNames(
+                  "hamburger flex-center",
+                  toggle ? "active-1" : ""
+                )}
+                onClick={onClickHamburger}
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
             </div>
           </div>
           <div

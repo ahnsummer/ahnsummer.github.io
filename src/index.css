@@ -9,6 +9,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  width: 100%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -28,7 +36,7 @@ code {
 .hamburger {
   position: relative;
   width: 30px;
-  height: 24px;
+  height: 20px;
 }
 
 .hamburger span {
@@ -45,7 +53,7 @@ code {
 }
 
 .hamburger span:nth-of-type(2) {
-  top: 10px;
+  top: 8px;
 }
 
 .hamburger span:nth-of-type(3) {
@@ -53,7 +61,7 @@ code {
 }
 
 .hamburger.active-1 span:nth-of-type(1) {
-  transform: translateY(10px) rotate(-45deg);
+  transform: translateY(8.5px) rotate(-45deg);
 }
 
 .hamburger.active-1 span:nth-of-type(2) {
@@ -61,5 +69,5 @@ code {
 }
 
 .hamburger.active-1 span:nth-of-type(3) {
-  transform: translateY(-10px) rotate(45deg);
+  transform: translateY(-7.5px) rotate(45deg);
 }
