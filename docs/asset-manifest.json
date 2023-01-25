@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.2ee42280.css",
-    "main.js": "/static/js/main.e2ab57a9.js",
+    "main.css": "/static/css/main.2b4b2f38.css",
+    "main.js": "/static/js/main.6390e714.js",
+    "static/media/GT-America-Standard-Bold-Trial.woff": "/static/media/GT-America-Standard-Bold-Trial.e46fb8cedb386ebbe45d.woff",
+    "static/media/GT-America-Standard-Medium-Trial.woff": "/static/media/GT-America-Standard-Medium-Trial.a087c3553a765d4e6ccc.woff",
+    "static/media/GT-America-Standard-Black-Trial.woff": "/static/media/GT-America-Standard-Black-Trial.3b61cf85afa2c5237d81.woff",
+    "static/media/GT-America-Standard-Ultra-Light-Trial.woff": "/static/media/GT-America-Standard-Ultra-Light-Trial.771ebc85240dc564fffa.woff",
+    "static/media/GT-America-Standard-Thin-Trial.woff": "/static/media/GT-America-Standard-Thin-Trial.afcaebbc6062f2e34888.woff",
+    "static/media/GT-America-Standard-Light-Trial.woff": "/static/media/GT-America-Standard-Light-Trial.7f758c97577d68aeee72.woff",
+    "static/media/GT-America-Standard-Regular-Trial.woff": "/static/media/GT-America-Standard-Regular-Trial.ba260657c83f69eaffd8.woff",
     "index.html": "/index.html",
-    "main.2ee42280.css.map": "/static/css/main.2ee42280.css.map",
-    "main.e2ab57a9.js.map": "/static/js/main.e2ab57a9.js.map"
+    "main.2b4b2f38.css.map": "/static/css/main.2b4b2f38.css.map",
+    "main.6390e714.js.map": "/static/js/main.6390e714.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ee42280.css",
-    "static/js/main.e2ab57a9.js"
+    "static/css/main.2b4b2f38.css",
+    "static/js/main.6390e714.js"
   ]
 }
