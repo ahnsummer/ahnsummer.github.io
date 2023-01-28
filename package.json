@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "BUILD_PATH='./docs' craco build",
+    "build": "BUILD_PATH='./docs' craco build && shx cp docs/index.html docs/404.html",
     "test": "craco test",
     "eject": "craco eject"
   },
@@ -45,6 +45,7 @@
   },
   "devDependencies": {
     "craco-alias": "^3.0.1",
+    "shx": "^0.3.4",
     "tailwindcss": "^3.2.4"
   }
 }
