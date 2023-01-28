@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export const Header = () => {
   const [categories, setCategories] = useState<string[]>([
-    "blog",
+    "life",
     "tech",
     "resume",
   ]);
@@ -22,7 +22,7 @@ export const Header = () => {
   };
 
   return (
-    <div className="w-full fixed flex-center bg-primary">
+    <div className="w-full fixed flex-center bg-primary z-10">
       <div className="w-full m-4 flex-center bg-white rounded-[4px] text-2xl">
         <div className="w-full flex-center p-4 md:px-8">
           <Link
