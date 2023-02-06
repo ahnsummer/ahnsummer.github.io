@@ -27,7 +27,7 @@ const Resume = () => {
               <div className=" border-white border p-2 rounded-full">
                 <img
                   className="w-full h-full rounded-full"
-                  src="/images/ahnsummer.JPG"
+                  src="/images/ahnsummer.jpg"
                   alt=""
                 />
               </div>

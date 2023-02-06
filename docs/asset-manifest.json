@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.eee71403.css",
-    "main.js": "/static/js/main.5d655b34.js",
+    "main.js": "/static/js/main.4bf9be15.js",
     "static/media/GT-America-Standard-Bold-Trial.woff": "/static/media/GT-America-Standard-Bold-Trial.e46fb8cedb386ebbe45d.woff",
     "static/media/GT-America-Standard-Medium-Trial.woff": "/static/media/GT-America-Standard-Medium-Trial.a087c3553a765d4e6ccc.woff",
     "static/media/GT-America-Standard-Black-Trial.woff": "/static/media/GT-America-Standard-Black-Trial.3b61cf85afa2c5237d81.woff",
@@ -11,10 +11,10 @@
     "static/media/GT-America-Standard-Regular-Trial.woff": "/static/media/GT-America-Standard-Regular-Trial.ba260657c83f69eaffd8.woff",
     "index.html": "/index.html",
     "main.eee71403.css.map": "/static/css/main.eee71403.css.map",
-    "main.5d655b34.js.map": "/static/js/main.5d655b34.js.map"
+    "main.4bf9be15.js.map": "/static/js/main.4bf9be15.js.map"
   },
   "entrypoints": [
     "static/css/main.eee71403.css",
-    "static/js/main.5d655b34.js"
+    "static/js/main.4bf9be15.js"
   ]
 }
