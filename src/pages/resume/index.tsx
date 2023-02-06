@@ -1,11 +1,11 @@
 const Resume = () => {
   return (
     <div className="w-full flex justify-center pt-[108px] pb-8 bg-primary">
-      <div className="container flex flex-col">
+      <div className="container flex flex-col px-4 md:px-0">
         {/* first line */}
         <div className="w-full flex-center py-8">
           <div className="w-1/3 text-left">
-            <p className="font-black text-5xl">안소은</p>
+            <p className="font-black text-2xl md:text-5xl">안소은</p>
             <p className="font-semibold text-lg">Software Engineer</p>
           </div>
           <div className="w-2/3 flex justify-end items-center">
@@ -21,12 +21,12 @@ const Resume = () => {
           </div>
         </div>
 
-        <div className="w-full flex gap-4">
-          <ul className="w-1/4 flex flex-col gap-10 p-2 text-left border border-white rounded-xl ">
-            <li className="relative">
-              <div className=" border-white border p-2 rounded-full">
+        <div className="w-full flex flex-col md:flex-row">
+          <ul className="w-full md:w-1/4 mb-4 md:mb-0 md:mr-4 flex flex-col gap-4 p-2 text-left border border-white rounded-xl ">
+            <li className="relative flex-center">
+              <div className="w-60 h-60 md:w-full md:h-full border-white border p-2 rounded-full">
                 <img
-                  className="w-full h-full rounded-full"
+                  className="w-60 md:w-full md:h-full rounded-full"
                   src="/images/ahnsummer.jpg"
                   alt=""
                 />
@@ -51,7 +51,7 @@ const Resume = () => {
               <p className="text-xl font-semibold">ETC</p>
             </li>
           </ul>
-          <ul className="w-3/4 flex justify-end flex-col gap-10 p-2 text-left border border-white rounded-xl">
+          <ul className="w-full md:w-3/4 flex justify-end flex-col gap-10 p-2 text-left border border-white rounded-xl">
             {/* <li>
               <p>
                 1년 차 개발자로 스타트업에서 웹 서비스를
